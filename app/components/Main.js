@@ -35,7 +35,7 @@ export default class Main extends React.Component {
 
         <div className="jumbotron">
           <div>
-          <h1>New York Times Articles Scrubber</h1>
+          <h1>New York Times Article Scrubber</h1>
           <h2>Search for and save interesting articles.</h2>
           </div>
         </div>
