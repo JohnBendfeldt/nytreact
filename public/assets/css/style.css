@@ -16,7 +16,13 @@ body {
 
 a:hover {
     text-decoration: none;
-    color: lightseagreen;
+    color: lightseagreen !important;
+}
+
+a:link,
+a:visited {
+    color: #fff;
+    text-decoration: none;
 }
 
 h1 {
