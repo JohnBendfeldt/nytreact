@@ -27,8 +27,8 @@ app.use(express.static("public"));
 // MongoDB Configuration
 
 // Local connection
-// mongoose.connect("mongodb://localhost/nytreact");
-mongoose.connect("mongodb://localhost/nytreact");
+// mongoose.connect("mongodb://localhost/nytreact"); Changed to Heroku mLab;
+mongoose.connect("mongodb://heroku_m9sqc6p1:804l1i6ag8575gtj5j7sbe2ffk@ds129374.mlab.com:29374/heroku_m9sqc6p1");
 var db = mongoose.connection;
 
 db.on("error", function(err) {
